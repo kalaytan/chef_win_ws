@@ -11,6 +11,7 @@ choco install clink -y
 REM Coding
 choco install vim -y
 choco install sublimetext3 -y -ia '/DIR=C:\Sublime'
+choco install sublimetext3.packagecontrol -y
 choco install kdiff3 -y
 
 REM Git
