@@ -1,15 +1,13 @@
 # chef_win_ws
-Windows Chef Workstation Setup Script
+Windows  Workstation Setup Script
 
 This repo contains a chocolatey script to install packages needed for chef development in windows.
 
 Let's assume you have brand new Windows instalation, run scripts in this repository in the following order:
 
 1. open cmd as Administrator 
-2. run ```performance.bat``` (Optional)
 3. run ```chocolatey.bat```
-4. run ```win_ws.bat```
-5. run ```utils.bat``` (Optional)
+5. run ```workstation.bat```
 6. Download and install [Windows Environment Variables Editor](http://eveditor.com/) for your convenience (Optional).
 7. Set PATH
 Your system environemt variable ```%PATH%``` should end like following :
@@ -21,6 +19,4 @@ C:\Program Files\Git\usr\bin;
 C:\ProgramData\chocolatey\bin;
 C:\Program Files\Oracle\VirtualBox;
 C:\HashiCorp\Vagrant\bin;
-C:\opscode\chefdk\embedded\bin;
-C:\opscode\chefdk\bin\
 ```
