@@ -15,7 +15,7 @@ choco install ConEmu -y -ia 'APPLICATIONFOLDER=C:\Conemu'
 choco install rsync -y
 choco install sublimetext3 -y -ia '/DIR=C:\Sublime'
 
-choco install winscp-y
+choco install winscp -y
 choco install sourcetree -y
 MKDIR C:\Oracle\VirtualBox
 MKDIR C:\Users\%USERNAME%\VirtualBoxVMs
