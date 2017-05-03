@@ -1,17 +1,16 @@
 MKDIR C:\Git
 choco install git.install -y -ia '/DIR=C:\Git' -params '/GitAndUnixToolsOnPath'
+choco install ConEmu -y -ia 'APPLICATIONFOLDER=C:\Conemu'
 
 choco install curl -y
 
 choco install google-chrome-x64 -y
-choco install teamviewer -y
 choco install 7zip -y
 choco install Wget -y
 choco install hosts.editor -y
 
 choco install putty.install -y
 
-choco install ConEmu -y -ia 'APPLICATIONFOLDER=C:\Conemu'
 choco install rsync -y
 choco install sublimetext3 -y -ia '/DIR=C:\Sublime'
 
